@@ -7,6 +7,9 @@ Uses a simplification of [Expected Transmission Count (ETX)](https://en.wikipedi
 
 Not a real life simulation, just a playground.
 
+<p>
+  <img src="./img/example.png" alt="example" width="738">
+</p>
 
 ## Usage
 
