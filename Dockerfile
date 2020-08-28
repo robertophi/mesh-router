@@ -1,12 +1,13 @@
 FROM node:10-alpine
-WORKDIR /src
+WORKDIR /usr/src/app
 
-ADD package*.json ./
-
+COPY package.json package.json
 RUN npm install
 
-ADD . /src
-# COPY . .
+RUN npm install -g parcel-bundler
+
+# ADD . /src
+COPY . .
 EXPOSE 1234
 CMD ["npm", "start"]
 

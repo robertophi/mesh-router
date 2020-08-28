@@ -5,9 +5,3 @@ services:
         command: npm start
         ports:
             - 1234:1234
-        volumes:
-            - ./:/src/
-            # - ./nodemodules:/src/node_modules
-
-volumes:
-    nodemodules: {}
